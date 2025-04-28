@@ -17,7 +17,7 @@ board = grid.Grid()
 
 # Path to King Domino board image:
 #image_path = r"C:\Users\Daniel K\Desktop\DAKI\2. Semester\DUAS_mini_proj\Mini_projekt_2\Program_AD\5.jpg"
-image_path = r"C:\Users\Daniel K\Desktop\DAKI\2. Semester\DUAS_mini_proj\Mini_projekt_2\Program_AD\4.png"
+image_path = r"C:\Program Files (x86)\2 Semester python work\Aflevering_kan_slettes_efter\Aflevering_Mini_projekt_2\1.png"
 
 # Seperate each tile of the board image into its corresponding coordinate in the grid:
 utils.seperate_tiles_to_grid(image_path, board.grid)
