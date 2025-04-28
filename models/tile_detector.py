@@ -15,7 +15,7 @@ import joblib
 
 class TileDetector: 
     def __init__(self): 
-        self.model = joblib.load(r'models/svm_model_final.joblib')
+        self.model = joblib.load('svm_model_final.joblib')
         #self.model = joblib.load("Program_AD\models\svm_model_lin_bal.joblib")
     
     def extract_hog_features_from_image(self, image, orientations=9, pixels_per_cell=(8, 8), cells_per_block=(2, 2)):
