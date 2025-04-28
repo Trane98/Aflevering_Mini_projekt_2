@@ -13,9 +13,9 @@ import pandas as pd
 
 class CrownAnalyser: 
     def __init__(self): 
-        self.kmeans = joblib.load("models\kmeans_model.joblib")
-        self.svm_sift = joblib.load("models\SVM_SIFT_finde_kroner.joblib")
-        self.scaler = joblib.load("models\SVM_SIFT_finde_kroner_scaler.joblib")
+        self.kmeans = joblib.load(r"kmeans_model.joblib")
+        self.svm_sift = joblib.load(r"SVM_SIFT_finde_kroner.joblib")
+        self.scaler = joblib.load(r"SVM_SIFT_finde_kroner_scaler.joblib")
 
         #self.kmeans = load(r"C:\Program Files (x86)\2 Semester python work\Mini_projekt_AI_Systemer\Billeder\Program_AD\models\kmeans_model.joblib")
         #self.svm_sift = load(r"C:\Program Files (x86)\2 Semester python work\Mini_projekt_AI_Systemer\Billeder\Program_AD\models\SVM_SIFT_finde_kroner.joblib")
